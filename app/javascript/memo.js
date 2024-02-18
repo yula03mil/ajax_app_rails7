@@ -1,4 +1,4 @@
-const builtHTML = (XHR) => {
+const buildHTML = (XHR) => {
   const item = XHR.response.post;
   const html =`
     <div class="post">
